@@ -8,6 +8,10 @@ gem 'rails', '3.2.10'
 gem 'sqlite3'
 gem 'airbrake'
 gem 'capistrano'
+gem 'rvm-capistrano'
+gem 'highline'
+gem 'rake'
+gem 'rack', '1.4.1'
 
 # Gems used only for assets and not required
 # in production environments by default.
