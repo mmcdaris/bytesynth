@@ -1,7 +1,7 @@
 set :application, "bytesynth"
 set :repository,  "https://github.com/mmcdaris/bytesynth.git"
 
-set :deploy_to, "/home/ubuntu/"
+set :deploy_to, "/webapps/"
 set :scm, :git
 
 set :deploy_via, :copy
