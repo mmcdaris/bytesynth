@@ -14,7 +14,7 @@ role :web, location                          # Your HTTP server, Apache/etc
 role :app, location                          # This may be the same as your `Web` server
 role :db,  location, :primary => true        # This is where Rails migrations will run
 
-set :use_sudo, true
+set :use_sudo, false
 set :user, "ubuntu"
 ssh_options[:keys] = [File.join(ENV["HOME"], ".ec2", "gsg-keypair")]
 ssh_options[:forward_agent] = true  
