@@ -1,5 +1,7 @@
 # Load RVM's capistrano plugin.
 require "rvm/capistrano"
+require 'bundler/capistrano'
+
 set :rvm_path, "$HOME/.rvm"
 set :rvm_ruby_string, 'ruby-1.9.2-head' 
 set :rvm_type, :user  # Don't use system-wide RVM
